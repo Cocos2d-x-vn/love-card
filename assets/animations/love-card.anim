@@ -1,0 +1,190 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "love-card",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 5,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "arrow": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": []
+          }
+        }
+      },
+      "image": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                1270
+              ],
+              "curve": [
+                0.23,
+                0.77,
+                0.54,
+                1
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                0,
+                -1300
+              ]
+            },
+            {
+              "frame": 2.05,
+              "value": [
+                0,
+                1300
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 4,
+              "value": [
+                0,
+                -1300
+              ]
+            },
+            {
+              "frame": 4.05,
+              "value": [
+                0,
+                1300
+              ]
+            },
+            {
+              "frame": 5,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 0
+            },
+            {
+              "frame": 2.05,
+              "value": 0
+            },
+            {
+              "frame": 2.5,
+              "value": 255
+            },
+            {
+              "frame": 3.5,
+              "value": 255
+            },
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "frame": 4.05,
+              "value": 0
+            },
+            {
+              "frame": 4.5,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 255
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "39de3c39-f4a0-44b1-b97e-eec8660e2e35"
+                }
+              },
+              {
+                "frame": 2,
+                "value": {
+                  "__uuid__": "3c5dac06-be45-44b0-a783-83c61f9e81d7"
+                }
+              },
+              {
+                "frame": 4,
+                "value": {
+                  "__uuid__": "c0c210f2-5797-4511-9432-46fe3d765240"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "step",
+      "params": []
+    },
+    {
+      "frame": 3,
+      "func": "step",
+      "params": []
+    },
+    {
+      "frame": 5,
+      "func": "step",
+      "params": []
+    }
+  ]
+}

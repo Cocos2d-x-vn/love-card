@@ -1,0 +1,13 @@
+{
+  "excludeScenes": [],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.LoveCard",
+  "startScene": "d68be7b4-6c67-4f28-8792-0e6385551a7d",
+  "title": "LoveCard",
+  "webOrientation": "auto"
+}
