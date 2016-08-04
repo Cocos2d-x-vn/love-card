@@ -1,0 +1,351 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim-pt1",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 13.5,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "1_0": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 255
+            },
+            {
+              "frame": 2.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "1_text": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.75,
+              "value": [
+                0,
+                -688
+              ],
+              "curve": [
+                0.2,
+                0.46,
+                0.51,
+                1.13
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                0,
+                380
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 255
+            },
+            {
+              "frame": 2.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "2_0": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2.25,
+              "value": 0
+            },
+            {
+              "frame": 2.75,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "2_0/2_baby": {
+        "props": {
+          "position": [
+            {
+              "frame": 2.25,
+              "value": [
+                -396,
+                -285
+              ],
+              "curve": [
+                0.33,
+                0.34,
+                0.61,
+                1
+              ]
+            },
+            {
+              "frame": 4.95,
+              "value": [
+                66,
+                -285
+              ]
+            }
+          ]
+        }
+      },
+      "2_0/2_balloon1": {
+        "props": {
+          "position": [
+            {
+              "frame": 2.25,
+              "value": [
+                111,
+                529
+              ]
+            },
+            {
+              "frame": 3.75,
+              "value": [
+                111,
+                410
+              ]
+            },
+            {
+              "frame": 5.5,
+              "value": [
+                111,
+                385
+              ]
+            }
+          ]
+        }
+      },
+      "2_0/2_balloon2": {
+        "props": {
+          "position": [
+            {
+              "frame": 2.25,
+              "value": [
+                253,
+                263
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                253,
+                234
+              ]
+            },
+            {
+              "frame": 3.75,
+              "value": [
+                253,
+                292
+              ]
+            },
+            {
+              "frame": 4.5,
+              "value": [
+                253,
+                256
+              ]
+            },
+            {
+              "frame": 5.5,
+              "value": [
+                253,
+                292
+              ]
+            }
+          ]
+        }
+      },
+      "2_text": {
+        "props": {
+          "position": [
+            {
+              "frame": 3.25,
+              "value": [
+                0,
+                -583
+              ],
+              "curve": [
+                0.24,
+                0.44,
+                0.5,
+                1.14
+              ]
+            },
+            {
+              "frame": 4,
+              "value": [
+                0,
+                380
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 3.5,
+              "value": 0
+            },
+            {
+              "frame": 4,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "3_0": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.75,
+              "value": 0
+            },
+            {
+              "frame": 6.25,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "3_0/3_listener1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 6.25,
+              "value": 0
+            },
+            {
+              "frame": 6.75,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "3_0/3_listener2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 7,
+              "value": 0
+            },
+            {
+              "frame": 7.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "3_0/3_listener3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 7.75,
+              "value": 0
+            },
+            {
+              "frame": 8.25,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "3_text": {
+        "props": {
+          "position": [
+            {
+              "frame": 9,
+              "value": [
+                0,
+                -580
+              ],
+              "curve": [
+                0.24,
+                0.44,
+                0.55,
+                1.21
+              ]
+            },
+            {
+              "frame": 10.5,
+              "value": [
+                0,
+                380
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 9.5,
+              "value": 0
+            },
+            {
+              "frame": 10.5,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 255
+            },
+            {
+              "frame": 13.5,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 11.95,
+      "func": "pause",
+      "params": []
+    }
+  ]
+}
