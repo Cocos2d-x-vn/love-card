@@ -19,8 +19,15 @@ cc.Class({
         this.node.on('touchend', this.pushUpListener, this);
         for (let i = 0; i < this.anims.length; ++i) {
             this.anims[i].init(this);
+            if (i !== 0) {
+                this.anims[i].node.active = false;
+            }
         }
         this.arrow.node.opacity = 0;
+    },
+
+    start () {
+        this.anims[0].anim.play();
     },
 
     step () {

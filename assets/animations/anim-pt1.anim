@@ -3,7 +3,7 @@
   "_name": "anim-pt1",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 13.5,
+  "_duration": 12,
   "sample": 20,
   "speed": 1,
   "wrapMode": 1,
@@ -299,7 +299,7 @@
         "props": {
           "position": [
             {
-              "frame": 9,
+              "frame": 7.75,
               "value": [
                 0,
                 -580
@@ -312,7 +312,7 @@
               ]
             },
             {
-              "frame": 10.5,
+              "frame": 9.25,
               "value": [
                 0,
                 380
@@ -321,8 +321,12 @@
           ],
           "opacity": [
             {
-              "frame": 9.5,
+              "frame": 8.25,
               "value": 0
+            },
+            {
+              "frame": 9.25,
+              "value": 255
             },
             {
               "frame": 10.5,
@@ -330,10 +334,6 @@
             },
             {
               "frame": 12,
-              "value": 255
-            },
-            {
-              "frame": 13.5,
               "value": 0
             }
           ]
@@ -343,7 +343,7 @@
   },
   "events": [
     {
-      "frame": 11.95,
+      "frame": 10.5,
       "func": "pause",
       "params": []
     }
