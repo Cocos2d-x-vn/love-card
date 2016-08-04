@@ -3,9 +3,9 @@
   "_name": "anim-pt2",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 11,
+  "_duration": 11.95,
   "sample": 20,
-  "speed": 1,
+  "speed": 0.8,
   "wrapMode": 1,
   "curveData": {
     "paths": {
@@ -108,11 +108,11 @@
           ],
           "opacity": [
             {
-              "frame": 6.5,
+              "frame": 7.45,
               "value": 255
             },
             {
-              "frame": 7,
+              "frame": 7.95,
               "value": 0
             }
           ]
@@ -189,11 +189,11 @@
               "value": 255
             },
             {
-              "frame": 6.5,
+              "frame": 7.45,
               "value": 255
             },
             {
-              "frame": 7,
+              "frame": 7.95,
               "value": 0
             }
           ]
@@ -203,7 +203,7 @@
         "props": {
           "position": [
             {
-              "frame": 6.75,
+              "frame": 7.7,
               "value": [
                 586,
                 0
@@ -216,14 +216,14 @@
               ]
             },
             {
-              "frame": 7.5,
+              "frame": 8.45,
               "value": [
                 0,
                 0
               ]
             },
             {
-              "frame": 10.5,
+              "frame": 11.45,
               "value": [
                 0,
                 0
@@ -236,7 +236,7 @@
               ]
             },
             {
-              "frame": 11,
+              "frame": 11.95,
               "value": [
                 -555,
                 0
@@ -250,71 +250,71 @@
         "props": {
           "opacity": [
             {
-              "frame": 7.5,
+              "frame": 8.45,
               "value": 0
             },
             {
-              "frame": 7.75,
+              "frame": 8.7,
               "value": 255
             }
           ],
           "scaleX": [
             {
-              "frame": 7.5,
+              "frame": 8.45,
               "value": 0.5
             },
             {
-              "frame": 8,
+              "frame": 8.95,
               "value": 1.2
             },
             {
-              "frame": 8.5,
+              "frame": 9.45,
               "value": 0.8
             },
             {
-              "frame": 9,
+              "frame": 9.95,
               "value": 1.2
             },
             {
-              "frame": 9.5,
+              "frame": 10.45,
               "value": 0.8
             },
             {
-              "frame": 10.25,
+              "frame": 11.45,
               "value": 1.2
             },
             {
-              "frame": 10.75,
+              "frame": 11.95,
               "value": 0
             }
           ],
           "scaleY": [
             {
-              "frame": 7.5,
+              "frame": 8.45,
               "value": 0.5
             },
             {
-              "frame": 8,
+              "frame": 8.95,
               "value": 1.2
             },
             {
-              "frame": 8.5,
+              "frame": 9.45,
               "value": 0.8
             },
             {
-              "frame": 9,
+              "frame": 9.95,
               "value": 1.2
             },
             {
-              "frame": 9.5,
+              "frame": 10.45,
               "value": 0.8
             },
             {
-              "frame": 10.25,
+              "frame": 11.45,
               "value": 1.2
             },
             {
-              "frame": 10.75,
+              "frame": 11.95,
               "value": 0
             }
           ]
@@ -324,7 +324,7 @@
         "props": {
           "position": [
             {
-              "frame": 8.5,
+              "frame": 9.45,
               "value": [
                 0,
                 -576
@@ -337,7 +337,7 @@
               ]
             },
             {
-              "frame": 10,
+              "frame": 10.95,
               "value": [
                 0,
                 380
@@ -346,19 +346,19 @@
           ],
           "opacity": [
             {
-              "frame": 9,
+              "frame": 9.95,
               "value": 0
             },
             {
-              "frame": 10,
+              "frame": 10.95,
               "value": 255
             },
             {
-              "frame": 10.5,
+              "frame": 11.45,
               "value": 255
             },
             {
-              "frame": 11,
+              "frame": 11.95,
               "value": 0
             }
           ]
@@ -393,7 +393,7 @@
   },
   "events": [
     {
-      "frame": 9.5,
+      "frame": 11.45,
       "func": "pause",
       "params": []
     }

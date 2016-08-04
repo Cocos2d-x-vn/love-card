@@ -5,7 +5,7 @@
   "_rawFiles": null,
   "_duration": 13.5,
   "sample": 20,
-  "speed": 1,
+  "speed": 0.9,
   "wrapMode": 1,
   "curveData": {
     "paths": {
@@ -474,7 +474,7 @@
   "events": [
     {
       "frame": 12.75,
-      "func": "step",
+      "func": "pause",
       "params": []
     }
   ]

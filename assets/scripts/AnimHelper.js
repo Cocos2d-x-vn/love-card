@@ -9,9 +9,9 @@ cc.Class({
         this.main = main;
     },
 
-    pause () {
+    pause (isLast) {
         this.anim.pause();
-        this.main.step();
+        this.main.step(isLast);
     },
 
     resume () {

@@ -1,0 +1,305 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim-pt6",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 8.95,
+  "sample": 20,
+  "speed": 0.8,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "17": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.5,
+              "value": 0
+            },
+            {
+              "frame": 8.95,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "78916_bg": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "16_redlight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.25,
+              "value": 0
+            },
+            {
+              "frame": 2.75,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 2.25,
+              "value": 3
+            },
+            {
+              "frame": 2.75,
+              "value": 1
+            },
+            {
+              "frame": 3,
+              "value": 1.1
+            },
+            {
+              "frame": 3.5,
+              "value": 1
+            },
+            {
+              "frame": 4,
+              "value": 1.1
+            },
+            {
+              "frame": 5.5,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 2.25,
+              "value": 3
+            },
+            {
+              "frame": 2.75,
+              "value": 1
+            },
+            {
+              "frame": 3,
+              "value": 1.1
+            },
+            {
+              "frame": 3.5,
+              "value": 1
+            },
+            {
+              "frame": 4,
+              "value": 1.1
+            },
+            {
+              "frame": 5.5,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "16_0": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 2,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 2,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "16_candlelight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2,
+              "value": 0
+            },
+            {
+              "frame": 2.5,
+              "value": 255
+            },
+            {
+              "frame": 3,
+              "value": 200
+            },
+            {
+              "frame": 3.5,
+              "value": 255
+            },
+            {
+              "frame": 4,
+              "value": 200
+            },
+            {
+              "frame": 5.5,
+              "value": 255
+            }
+          ],
+          "skewX": [
+            {
+              "frame": 2.25,
+              "value": 0
+            },
+            {
+              "frame": 2.75,
+              "value": 5
+            },
+            {
+              "frame": 3.25,
+              "value": -5
+            },
+            {
+              "frame": 3.75,
+              "value": 5
+            },
+            {
+              "frame": 4.25,
+              "value": -5
+            },
+            {
+              "frame": 5.5,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 2.5,
+              "value": 1
+            },
+            {
+              "frame": 2.75,
+              "value": 1.2
+            },
+            {
+              "frame": 3.25,
+              "value": 1
+            },
+            {
+              "frame": 3.75,
+              "value": 1.2
+            },
+            {
+              "frame": 4.25,
+              "value": 0.9
+            },
+            {
+              "frame": 5.5,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 2.5,
+              "value": 1
+            },
+            {
+              "frame": 2.75,
+              "value": 1.2
+            },
+            {
+              "frame": 3.25,
+              "value": 1
+            },
+            {
+              "frame": 3.75,
+              "value": 1.2
+            },
+            {
+              "frame": 4.25,
+              "value": 0.9
+            },
+            {
+              "frame": 5.5,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "16_text": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 3.75,
+              "value": 0
+            },
+            {
+              "frame": 4.25,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 255
+            },
+            {
+              "frame": 5.75,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 3.5,
+              "value": [
+                0,
+                -619
+              ],
+              "curve": [
+                0.27,
+                0.53,
+                0.66,
+                1.23
+              ]
+            },
+            {
+              "frame": 4.25,
+              "value": [
+                0,
+                350
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 5.5,
+      "func": "pause",
+      "params": [
+        true
+      ]
+    }
+  ]
+}

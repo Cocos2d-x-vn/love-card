@@ -14,6 +14,7 @@ cc.Class({
     onLoad: function () {
         this.lastTouchLoc = cc.p(0, 0);
         this.isPaused = false;
+        this.isLastPlayed = false;
         this.animIdx = 0;
         this.node.on('touchstart', this.touchStartListener, this);
         this.node.on('touchend', this.pushUpListener, this);
@@ -30,9 +31,12 @@ cc.Class({
         this.anims[0].anim.play();
     },
 
-    step () {
+    step (isLast) {
         this.isPaused = true;
         this.arrow.play('arrow-blink');
+        if (isLast) {
+            this.isLastPlayed = true;
+        }
     },
 
     touchStartListener (event) {
@@ -45,14 +49,18 @@ cc.Class({
         var delta = cc.pSub(touchLoc, this.lastTouchLoc);
         cc.log('delta: ' + delta);
         if (delta.y > 100) {
+            this.anims[this.animIdx].resume();
+            this.arrow.stop();
+            this.arrow.node.opacity = 0;
+            this.isPaused = false;
+
+            if (this.isLastPlayed) return;
+
             var newIdx = this.animIdx + 1;
             if (newIdx < this.anims.length) {
-                this.anims[this.animIdx].resume();
                 this.anims[newIdx].node.active = true;
                 this.anims[newIdx].anim.play();
-                this.arrow.stop();
-                this.arrow.node.opacity = 0;
-                this.isPaused = false;
+                this.animIdx = newIdx;
             }
         }
     }
