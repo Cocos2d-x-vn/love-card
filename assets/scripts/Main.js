@@ -25,6 +25,11 @@ cc.Class({
             }
         }
         this.arrow.node.opacity = 0;
+        //"launch"事例
+        if (window.zhuge) {
+            window.zhuge.track("launch");
+        }
+
     },
 
     start () {
@@ -53,8 +58,11 @@ cc.Class({
             this.arrow.stop();
             this.arrow.node.opacity = 0;
             this.isPaused = false;
-
-            if (this.isLastPlayed) return;
+            if (this.isLastPlayed) {
+                if (window.zhuge)
+                    window.zhuge.track("finish");
+                return;
+            }
 
             var newIdx = this.animIdx + 1;
             if (newIdx < this.anims.length) {

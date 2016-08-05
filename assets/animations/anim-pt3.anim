@@ -16,7 +16,7 @@
               "frame": 10.25,
               "value": [
                 0,
-                -737
+                380
               ],
               "curve": [
                 0.18,
@@ -91,7 +91,7 @@
               ]
             },
             {
-              "frame": 5.25,
+              "frame": 6,
               "value": [
                 0,
                 0
@@ -99,7 +99,7 @@
               "curve": "constant"
             },
             {
-              "frame": 7.75,
+              "frame": 8.5,
               "value": [
                 128.6,
                 171.5
@@ -116,7 +116,7 @@
           ],
           "scaleX": [
             {
-              "frame": 7.75,
+              "frame": 8.5,
               "value": 1,
               "curve": "quadIn"
             },
@@ -127,7 +127,7 @@
           ],
           "scaleY": [
             {
-              "frame": 7.75,
+              "frame": 8.5,
               "value": 1,
               "curve": "quadIn"
             },
@@ -153,7 +153,7 @@
               "curve": "constant"
             },
             {
-              "frame": 7.75,
+              "frame": 8.5,
               "value": 0.7009
             }
           ],
@@ -164,7 +164,7 @@
               "curve": "constant"
             },
             {
-              "frame": 7.75,
+              "frame": 8.5,
               "value": 0.7849
             }
           ]
@@ -174,34 +174,7 @@
         "props": {
           "position": [
             {
-              "frame": 3.25,
-              "value": [
-                0,
-                -788
-              ]
-            },
-            {
-              "frame": 5.25,
-              "value": [
-                0,
-                -788
-              ],
-              "curve": [
-                0.12,
-                0.46,
-                0.57,
-                1.14
-              ]
-            },
-            {
-              "frame": 6.25,
-              "value": [
-                0,
-                419
-              ]
-            },
-            {
-              "frame": 6.3,
+              "frame": 6,
               "value": [
                 0,
                 380
@@ -210,19 +183,19 @@
           ],
           "opacity": [
             {
-              "frame": 5.35,
+              "frame": 6,
               "value": 0
             },
             {
-              "frame": 5.75,
-              "value": 255
-            },
-            {
-              "frame": 7.75,
+              "frame": 6.75,
               "value": 255
             },
             {
               "frame": 8.5,
+              "value": 255
+            },
+            {
+              "frame": 9.25,
               "value": 0
             }
           ]
@@ -417,19 +390,6 @@
       "7_text": {
         "props": {
           "position": [
-            {
-              "frame": 1.75,
-              "value": [
-                0,
-                -584
-              ],
-              "curve": [
-                0.19,
-                0.4,
-                0.56,
-                1.14
-              ]
-            },
             {
               "frame": 2.5,
               "value": [

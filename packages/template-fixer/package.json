@@ -1,0 +1,7 @@
+{
+  "name": "template-fixer",
+  "version": "0.0.1",
+  "description": "Copy over index.html after build.",
+  "author": "Chukong Technology",
+  "main": "main.js"
+}
