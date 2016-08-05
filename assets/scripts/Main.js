@@ -29,7 +29,6 @@ cc.Class({
         if (window.zhuge) {
             window.zhuge.track("launch");
         }
-
     },
 
     start () {

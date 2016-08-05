@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>游戏人的七夕</title>
+  <title>游戏人的七夕：你今晚回家吃饭吗？</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -37,11 +37,22 @@
   <!--<meta name="browsermode" content="application">-->
   <meta name="x5-page-mode" content="app">
 
-  <!--<link rel="apple-touch-icon" href=".png" />-->
-  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
-
   <link rel="stylesheet" type="text/css" href="style-mobile.css"/>
 
+
+</head>
+<body>
+  <div style='display:none'>
+    <img src="thumbnail.jpg"/>
+  </div>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+<script src="src/settings.js" charset="utf-8"></script>
+<script src="cocos2d-js-min.js" charset="utf-8"></script>
   <!--zhuge.io-->
     <script type="text/javascript">
     window.zhuge = window.zhuge || [];
@@ -74,21 +85,8 @@
             window.zhuge._init(b, x)
         }
     };
-    window.zhuge.load('dd6115a8e20f491d841f876e02de0fdc', {debug: true});
+    window.zhuge.load('dd6115a8e20f491d841f876e02de0fdc');
     </script>
-</head>
-<body>
-  <div style='display:none'>
-    <img src="thumbnail.jpg"/>
-  </div>
-  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
-  <div id="splash">
-    <div class="progress-bar stripes">
-      <span style="width: 0%"></span>
-    </div>
-  </div>
-<script src="src/settings.js" charset="utf-8"></script>
-<script src="cocos2d-js-min.js" charset="utf-8"></script>
 <script src="main.js" charset="utf-8"></script>
 </body>
 </html>

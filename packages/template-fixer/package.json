@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "description": "Copy over index.html after build.",
   "author": "Chukong Technology",
-  "main": "main.js"
+  "main": "main.js",
+  "dependencies": {
+    "minify": "^2.0.11"
+  }
 }

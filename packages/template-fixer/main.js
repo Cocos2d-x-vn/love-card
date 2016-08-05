@@ -11,6 +11,22 @@ module.exports = {
         Editor.log('destPath: ' + destPath);
         Fs.copy(srcPath, destPath, {clobber: true}, (error) => {
             Editor.success('Finish copy over index.html.');
+            var minify = require('minify');
+            var mainPath = Path.join(destPath, 'main.js');
+            var cssPath = Path.join(destPath, 'style-mobile.css');
+            var htmlPath = Path.join(destPath, 'index.html');
+            minify(mainPath, 'name', function(error, name) {
+                console.log(error || name);
+                Fs.copySync(name, mainPath, {clobber: true});
+            });
+            minify(htmlPath, 'name', function(error, name) {
+                console.log(error || name);
+                Fs.copySync(name, htmlPath, {clobber: true});
+            });
+            minify(cssPath, 'name', function(error, name) {
+                console.log(error || name);
+                Fs.copySync(name, cssPath, {clobber: true});
+            });
         });
     }
   }

@@ -110,11 +110,11 @@
               "value": 255
             },
             {
-              "frame": 4.5,
+              "frame": 3.5,
               "value": 255
             },
             {
-              "frame": 5,
+              "frame": 4,
               "value": 0
             }
           ]
@@ -124,11 +124,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.75,
+              "frame": 3.95,
               "value": 0
             },
             {
-              "frame": 5.5,
+              "frame": 4.7,
               "value": 255
             },
             {
