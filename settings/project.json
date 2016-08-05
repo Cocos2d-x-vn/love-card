@@ -1,12 +1,30 @@
 {
-  "start-scene": "current",
-  "group-list": [
-    "default"
-  ],
   "collision-matrix": [
     [
       true
     ]
   ],
-  "excluded-modules": []
+  "excluded-modules": [
+    "Label",
+    "CCSpriteDistortion",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "Button",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Layout",
+    "EditorBox",
+    "VideoPlayer",
+    "MotionStreak",
+    "Collider",
+    "Action",
+    "Graphics"
+  ],
+  "group-list": [
+    "default"
+  ],
+  "start-scene": "current"
 }
