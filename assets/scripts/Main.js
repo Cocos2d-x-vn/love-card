@@ -26,8 +26,8 @@ cc.Class({
         }
         this.arrow.node.opacity = 0;
         //"launch"事例
-        if (window.zhuge) {
-            window.zhuge.track("launch");
+        if (window._hmt) {
+            window._hmt.push(['_trackEvent', 'progress', 'launch']);
         }
     },
 
@@ -58,8 +58,8 @@ cc.Class({
             this.arrow.node.opacity = 0;
             this.isPaused = false;
             if (this.isLastPlayed) {
-                if (window.zhuge)
-                    window.zhuge.track("finish");
+                if (window._hmt)
+                    window._hmt.push(['_trackEvent', 'progress', 'finish']);
                 return;
             }
 

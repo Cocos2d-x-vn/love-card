@@ -19,10 +19,10 @@ cc.Class({
         this.musicOn = !this.musicOn;
         if (this.musicOn) {
             this.sprite.spriteFrame = this.spOn;
-            this.audioSrc.mute = false;
+            this.audioSrc.audio.play();
         } else {
             this.sprite.spriteFrame = this.spOff;
-            this.audioSrc.mute = true;
+            this.audioSrc.audio.pause();
         }
     }
 
